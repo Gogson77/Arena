@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+}
+
+#pageHeading {
+    color: red;
+    width: 990px;
+    text-align: center;   
+}
+.gallery {
+    margin: 15px;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 0px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.descHeading {
+    margin: 0px;
+    padding-left: 15px;
+    text-align: left;
+    color:lightskyblue;
+}
+
+.desc {
+    padding-left: 15px;
+    text-align: justify;
+    margin-bottom: 0px;
+}
