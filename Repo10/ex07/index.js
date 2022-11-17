@@ -8,7 +8,7 @@ function myFunction(propName) { // Change this line
     };
     delete lion[propName];
     return lion;
-// Only change code abovethis line
+// Only change code above this line
 }
 console.log(myFunction("roar")); // Change this line
 module.exports = myFunction;
