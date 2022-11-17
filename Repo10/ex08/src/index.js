@@ -5,7 +5,7 @@ function myObject(){
     };
     // Only change code below this line
     Object.freeze(MATH_CONSTANTS);
-
+    console.log(MATH_CONSTANTS.E);
     // Only change code above this line
  try {
     MATH_CONSTANTS.E = 23;
