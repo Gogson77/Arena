@@ -2,12 +2,13 @@
 function rangeOfNumbers(startN, endN) {
     if (startN > endN) {
         errorMsg = "The starting number will always be less than or equal to the ending number";
-        //return errorMsg;
-        return []; 
-    } else {
-        var arrayOfIntegers = rangeOfNumbers(startN + 1, endN);
+        return errorMsg;
+    } else if (startN !== endN){
+        let arrayOfIntegers = rangeOfNumbers(startN + 1, endN);
         arrayOfIntegers.unshift(startN);
         return arrayOfIntegers;
+    } else {
+        return [startN];
     }
 }
 // Only chance code above this line
