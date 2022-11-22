@@ -1,4 +1,4 @@
-// Only chance code below this line
+// Only change code below this line
 function rangeOfNumbers(startN, endN) {
     if (startN > endN) {
         errorMsg = "The starting number will always be less than or equal to the ending number";
@@ -11,7 +11,7 @@ function rangeOfNumbers(startN, endN) {
         return [startN];
     }
 }
-// Only chance code above this line
+// Only change code above this line
 console.log(rangeOfNumbers(1, 7));
 console.log(rangeOfNumbers(3, 10));
 console.log(rangeOfNumbers(5, 5));
