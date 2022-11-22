@@ -1,4 +1,4 @@
-// Only chance code below this line
+// Only change code below this line
 function sumFibonacci(num) {
     sum = 0;
     if (num === 1) {
@@ -16,7 +16,7 @@ function sumFibonacci(num) {
         return sum;
     }
 }
-// Only chance code above this line
+// Only change code above this line
 console.log(sumFibonacci(1));
 console.log(sumFibonacci(10));
 console.log(sumFibonacci(20));
