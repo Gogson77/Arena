@@ -32,7 +32,7 @@ function lookUpProfile(name, prop) {
             if(contacts[i].hasOwnProperty(prop)) {
                 return contacts[i][prop];
             } else { return "No such property"; }
-        } else //{return "No such contact";}
+        } else {return "No such contact";}
     }    
 // Only change code above this line
 }
