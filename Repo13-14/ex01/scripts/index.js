@@ -22,54 +22,62 @@ var img8 = document.getElementById("overlay8");
 var img9 = document.getElementById("overlay9");
 var img10 = document.getElementById("overlay10");
 
-// Get myModal
+// Get the modal
 var myModal = document.getElementById("myModal");
 
-// Get myIframe
-var myIframe = document.getElementById("myIframe");
+// Get the modal content
+var myContent = document.getElementById("myContent");
 
-// When the user clicks the button, open the modal
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, display modal & open src html
 img1.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image01.html"; }
+  myContent.src = "image01.html"; }
 
 img2.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image02.html"; }
+  myContent.src = "image02.html"; }
 
 img3.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image03.html"; }
+  myContent.src = "image03.html"; }
 
 img1.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image01.html"; }
+  myContent.src = "image01.html"; }
 
 img4.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image04.html"; }
+  myContent.src = "image04.html"; }
 
 img5.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image05.html"; }
+  myContent.src = "image05.html"; }
 
 img6.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image06.html"; }
+  myContent.src = "image06.html"; }
 
 img7.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image07.html"; }
+  myContent.src = "image07.html"; }
 
 img8.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image08.html"; }
+  myContent.src = "image08.html"; }
 
 img9.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image09.html"; }
+  myContent.src = "image09.html"; }
 
 img10.onclick = function(){
   myModal.style.display = "block";
-  myIframe.src = "image10.html"; }
+  myContent.src = "image10.html"; }
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  myModal.style.display = "none";
+}
 
