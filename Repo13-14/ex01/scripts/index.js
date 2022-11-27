@@ -1,62 +1,63 @@
-// Get the modal
-var modal = document.getElementById("myModal");
+// Get the button that opens the modal
+var img1 = document.getElementById("overlay1");
+var img2 = document.getElementById("overlay2");
+var img3 = document.getElementById("overlay3");
+var img4 = document.getElementById("overlay4");
+var img5 = document.getElementById("overlay5");
+var img6 = document.getElementById("overlay6");
+var img7 = document.getElementById("overlay7");
+var img8 = document.getElementById("overlay8");
+var img9 = document.getElementById("overlay9");
+var img10 = document.getElementById("overlay10");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+// Get myModal
+var myModal = document.getElementById("myModal");
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+// Get myIframe
+var myIframe = document.getElementById("myIframe");
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+// When the user clicks the button, open the modal
+img1.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image01.html"; }
 
-// Get the image thumbnail that opens the modal
-// Get the iframe that is included in modal
-// When the user clicks on the image thumbnail, open the modal 
-// and present changed  source for iframe to externam html
+img2.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image02.html"; }
 
-document.getElementById("myThumbImg1").onclick = function(){
-  modal.style.display = "block";
-  document.getElementById("myIframe").src="image01.html";}
+img3.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image03.html"; }
 
-document.getElementById("myThumbImg2").onclick = function(){
-    modal.style.display = "block";
-    document.getElementById("myIframe").src="image02.html";}
+img1.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image01.html"; }
 
-document.getElementById("myThumbImg3").onclick = function(){
-  modal.style.display = "block";
-  document.getElementById("myIframe").src="image03.html";}
+img4.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image04.html"; }
 
-document.getElementById("myThumbImg4").onclick = function(){
-    modal.style.display = "block";
-    document.getElementById("myIframe").src="image04.html";}
+img5.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image05.html"; }
 
-document.getElementById("myThumbImg5").onclick = function(){
-  modal.style.display = "block";
-  document.getElementById("myIframe").src="image05.html";}
+img6.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image06.html"; }
 
-document.getElementById("myThumbImg6").onclick = function(){
-    modal.style.display = "block";
-    document.getElementById("myIframe").src="image06.html";}
+img7.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image07.html"; }
 
-document.getElementById("myThumbImg7").onclick = function(){
-  modal.style.display = "block";
-  document.getElementById("myIframe").src="image07.html";}
+img8.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image08.html"; }
 
-document.getElementById("myThumbImg8").onclick = function(){
-    modal.style.display = "block";
-    document.getElementById("myIframe").src="image08.html";}
+img9.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image09.html"; }
 
-document.getElementById("myThumbImg9").onclick = function(){
-  modal.style.display = "block";
-  document.getElementById("myIframe").src="image07.html";}
+img10.onclick = function(){
+  myModal.style.display = "block";
+  myIframe.src = "image10.html"; }
 
-document.getElementById("myThumbImg10").onclick = function(){
-    modal.style.display = "block";
-    document.getElementById("myIframe").src="image10.html";}
