@@ -10,7 +10,7 @@ var img8 = document.getElementById("imgTitle8");
 var img9 = document.getElementById("imgTitle9");
 var img10 = document.getElementById("imgTitle10"); */
 
-// Get button: When a visitor clicks on overlay arounf the title of the image..
+// Get button: When a visitor clicks on overlay around the title of the image..
 var img1 = document.getElementById("overlay1");
 var img2 = document.getElementById("overlay2");
 var img3 = document.getElementById("overlay3");
@@ -32,52 +32,63 @@ var myContent = document.getElementById("myContent");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, display modal & open src html
-img1.onclick = function(){
+img1.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image01.html"; }
+  myContent.src = "image01.html";
+}
 
-img2.onclick = function(){
+img2.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image02.html"; }
+  myContent.src = "image02.html";
+}
 
-img3.onclick = function(){
+img3.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image03.html"; }
+  myContent.src = "image03.html";
+}
 
-img1.onclick = function(){
+img1.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image01.html"; }
+  myContent.src = "image01.html";
+}
 
-img4.onclick = function(){
+img4.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image04.html"; }
+  myContent.src = "image04.html";
+}
 
-img5.onclick = function(){
+img5.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image05.html"; }
+  myContent.src = "image05.html";
+}
 
-img6.onclick = function(){
+img6.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image06.html"; }
+  myContent.src = "image06.html";
+}
 
-img7.onclick = function(){
+img7.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image07.html"; }
+  myContent.src = "image07.html";
+}
 
-img8.onclick = function(){
+img8.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image08.html"; }
+  myContent.src = "image08.html";
+}
 
-img9.onclick = function(){
+img9.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image09.html"; }
+  myContent.src = "image09.html";
+}
 
-img10.onclick = function(){
+img10.onclick = function () {
   myModal.style.display = "block";
-  myContent.src = "image10.html"; }
+  myContent.src = "image10.html";
+}
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+span.onclick = function () {
   myModal.style.display = "none";
 }
 
