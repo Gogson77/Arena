@@ -4,7 +4,7 @@ let message;
 // only change the code above this line
 
 myName = "Padawans";
-function myMsg(name){
+function myMsg(name) {
     "use strict";
     message = "Hello, " + name + "!";
 
