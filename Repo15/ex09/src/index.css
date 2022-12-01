@@ -1,0 +1,88 @@
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+header a {
+    text-decoration-line: none;
+}
+
+header {
+    
+    
+}
+
+#nav_bar {
+    display: flex;
+
+    line-height: 24px;
+    list-style: none;
+}
+
+.nav-links {
+}
+
+#gmail {
+    
+}
+
+#images {
+    
+}
+
+#sign_in {
+    background-color: lightskyblue;
+}
+
+.google-image {}
+
+#google_logo {}
+
+.form-search {}
+
+#form {}
+
+#form_search {}
+
+.buttons {}
+
+#google_search {}
+
+#im_feeling_lucky {}
+
+footer {
+    display: flex;
+}
+
+footer a {
+    text-decoration-line: none;
+}
+
+.footer-left {
+    display: flex;
+    list-style: none;
+}
+
+#footer_left {}
+
+#advertising {}
+
+#business {}
+
+#about {}
+
+.footer-right {
+    display: flex;
+    list-style: none;
+}
+
+#footer_right {}
+
+#privacy {}
+
+#terms {}
+
+#setting {}
