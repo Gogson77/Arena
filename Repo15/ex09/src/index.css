@@ -10,44 +10,72 @@ header a {
     text-decoration-line: none;
 }
 
-header {
-    
-    
-}
-
 #nav_bar {
     display: flex;
-
-    line-height: 24px;
+    align-items: center;
+    justify-content: flex-end;
     list-style: none;
+    padding: 6px;
 }
 
 .nav-links {
+
 }
 
-#gmail {
-    
+#gmail { 
+    margin: 0 20px 0 20;
+    padding: 0 10px;
 }
 
 #images {
-    
+    margin: 0 20px 0 20;
+    padding: 0 10px;
 }
 
 #sign_in {
-    background-color: lightskyblue;
+    margin: 0 20px 0 20;
+    padding: 0 10px;
+    border-radius: 3px;
+    background-color: #1a73e8;
+
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+
 }
 
-.google-image {}
+#sign_in a {
+    color: white;
+}
+
+.google-image {
+    margin:auto;
+    text-align: center;
+}
 
 #google_logo {}
 
-.form-search {}
+.form-search {
+    margin:auto;
+    text-align: center;
+}
 
 #form {}
 
 #form_search {}
 
-.buttons {}
+.buttons {
+    margin:auto;
+    text-align: center;
+}
 
 #google_search {}
 
@@ -55,14 +83,15 @@ header {
 
 footer {
     display: flex;
+    flex-grow: 10;
+    margin:auto;
 }
-
 footer a {
     text-decoration-line: none;
 }
 
 .footer-left {
-    display: flex;
+
     list-style: none;
 }
 
@@ -75,7 +104,7 @@ footer a {
 #about {}
 
 .footer-right {
-    display: flex;
+
     list-style: none;
 }
 
