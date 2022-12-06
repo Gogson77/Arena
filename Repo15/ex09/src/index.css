@@ -1,34 +1,47 @@
 body,
 input,
-button {
+button,
+a, li {
     font-size: 14px;
-    font-family: arial, sans-serif;
+    color: #202124;
+    text-decoration-line: none;
+    list-style: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
 }
 
-header a {
-    text-decoration-line: none;
-    color: black;
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
 }
 
 #nav_bar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    list-style: none;
-    padding: 5px;
 }
 
-.nav-links {}
-
-#gmail {
+.nav-links {
     margin: 0 20px 0 20;
     padding: 0 10px;
 }
 
-#images {
-    margin: 0 20px 0 20;
-    padding: 0 10px;
-}
+/* #gmail {} */
+/* #images {} */
 
 #sign_in {
     border-radius: 3px;
@@ -46,25 +59,24 @@ header a {
 #sign_in a {
     color: white;
 }
-
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 .google-image {
     margin: auto;
-    text-align: center;
 }
 
-.google-image img {
-    padding: 10px;
-}
-
-#google_logo {}
+/* #google_logo {} */
+/* #google_logo img {} */
 
 .form-search {
     margin: auto;
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
-#form {}
+/* #form {} */
 
 #form_search {
     padding: 5px;
@@ -78,9 +90,9 @@ header a {
     text-align: center;
 }
 
-#google_search {}
-
-#im_feeling_lucky {}
+#google_search, #im_feeling_lucky {
+    padding: 5px;
+}
 
 footer {
     display: flex;
@@ -90,35 +102,20 @@ footer {
     border-top: 1px solid rgb(212, 212, 212);
 }
 
-footer a {
-    color: black;
-    text-decoration-line: none;
-}
-
 .footer-left {
     display: flex;
     flex-grow: 1;
-    list-style: none;
 }
 
-#footer_left { }
-
-#advertising { padding: 10px; }
-
-#business { padding: 10px; }
-
-#about { padding: 10px; }
+/* #footer_left {} */
 
 .footer-right {
     display: flex;
     flex-grow: 0;
-    list-style: none;
 }
 
-#footer_right {}
+/* #footer_right {} */
 
-#privacy {padding: 10px;}
-
-#terms {padding: 10px;}
-
-#setting {padding: 10px;}
+#advertising, #business, #about, #privacy, #terms, #settings {
+    padding: 10px;
+}
