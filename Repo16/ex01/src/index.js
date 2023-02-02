@@ -1,12 +1,13 @@
-class User {
-    constructor(name, age, email) {
-        this.name = name;
-        this.age = age;
-        this.email = email;
+// only change the code below this line
+class Car {
+    constructor(manufacturer, model, production) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.production = production;
     }
 }
-const john = new User("John", 35, "john@example.com");
-
-console.log(john.name);
-console.log(john.age);
-console.log(john.email);
+// only change the code above this line
+const bmw = new Car("BMW", "BMW X3", 2003);
+console.log(bmw.manufacturer);
+console.log(bmw.model);
+console.log(bmw.production);
