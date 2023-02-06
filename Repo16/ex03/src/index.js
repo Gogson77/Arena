@@ -18,8 +18,21 @@ class Person {
     show() {
       Person.display();
     }
+// another example
+    static displayMessage(){
+        let message = "This is a message";
+        console.log(message);
+    }
+    showMessage() {
+        Person.displayMessage();
+    }
+// another example
+    static displayMessage2(){
+        console.log();
+    }
 }
 // only change the code above this line
 var message = new Person;
 message.show();
+message.showMessage();
 module.exports = Person;
